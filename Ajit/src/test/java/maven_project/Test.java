@@ -14,8 +14,8 @@ public class Test {
 		WebDriver driver = new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.in/");
-
+		//driver.get("https://www.amazon.in/");
+                 driver.get("https://www.amazon.in/");
 	   
 
 
